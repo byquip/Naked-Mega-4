@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -24,7 +24,7 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -128,7 +128,7 @@
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
 <layer number="188" name="Graphics" color="15" fill="1" visible="no" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
 <layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
 <layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
@@ -207,19 +207,19 @@
 <text x="6.5278" y="30.226" size="0.8128" layer="21" font="vector" ratio="13" rot="SR90" align="center-left">2</text>
 <text x="6.61035" y="31.9278" size="0.8128" layer="21" font="vector" ratio="13" rot="SR90" align="center-left">TX0</text>
 <text x="6.6421" y="34.84245" size="0.8128" layer="21" font="vector" ratio="13" rot="SR90" align="center-left">5V</text>
-<text x="1.2446" y="36.3474" size="0.6096" layer="21" font="vector" ratio="13" rot="R90" align="center-right">GND</text>
-<text x="1.2954" y="33.7312" size="0.6096" layer="21" font="vector" ratio="13" rot="R90" align="center-right">RX0</text>
-<text x="1.1684" y="30.8102" size="0.8128" layer="21" font="vector" ratio="13" rot="R90" align="center-right">3</text>
-<text x="1.2192" y="28.321" size="0.8128" layer="21" font="vector" ratio="13" rot="R90" align="center-right">5</text>
-<text x="1.2192" y="25.908" size="0.8128" layer="21" font="vector" ratio="13" rot="R90" align="center-right">7</text>
-<text x="1.23825" y="23.2918" size="0.8128" layer="21" font="vector" ratio="13" rot="R90" align="center-right">9</text>
-<text x="1.25095" y="21.0566" size="0.8128" layer="21" font="vector" ratio="13" rot="R90" align="center-right">11</text>
-<text x="1.2192" y="18.542" size="0.8128" layer="21" font="vector" ratio="13" rot="R90" align="center-right">13</text>
-<text x="1.3208" y="16.002" size="0.6096" layer="21" font="vector" ratio="13" rot="R90" align="center-right">RX3</text>
-<text x="1.3462" y="13.5128" size="0.6096" layer="21" font="vector" ratio="13" rot="R90" align="center-right">RX2</text>
-<text x="1.397" y="11.0998" size="0.6096" layer="21" font="vector" ratio="13" rot="R90" align="center-right">RX1</text>
-<text x="1.3716" y="8.4074" size="0.6096" layer="21" font="vector" ratio="13" rot="R90" align="center-right">SCL</text>
-<text x="1.2192" y="5.7658" size="0.8128" layer="21" font="vector" ratio="13" rot="R90" align="center-right">23</text>
+<text x="1.016" y="36.5252" size="0.8128" layer="21" font="vector" ratio="13" rot="R90" align="center-right">GND</text>
+<text x="1.0414" y="34.0106" size="0.8128" layer="21" font="vector" ratio="13" rot="R90" align="center-right">RX0</text>
+<text x="0.9144" y="30.8102" size="0.8128" layer="21" font="vector" ratio="13" rot="R90" align="center-right">3</text>
+<text x="0.9906" y="28.3464" size="0.8128" layer="21" font="vector" ratio="13" rot="R90" align="center-right">5</text>
+<text x="0.9906" y="25.8826" size="0.8128" layer="21" font="vector" ratio="13" rot="R90" align="center-right">7</text>
+<text x="0.95885" y="23.2918" size="0.8128" layer="21" font="vector" ratio="13" rot="R90" align="center-right">9</text>
+<text x="0.94615" y="21.0058" size="0.8128" layer="21" font="vector" ratio="13" rot="R90" align="center-right">11</text>
+<text x="0.9906" y="18.542" size="0.8128" layer="21" font="vector" ratio="13" rot="R90" align="center-right">13</text>
+<text x="1.016" y="16.3576" size="0.8128" layer="21" font="vector" ratio="13" rot="R90" align="center-right">RX3</text>
+<text x="1.0414" y="13.716" size="0.8128" layer="21" font="vector" ratio="13" rot="R90" align="center-right">RX2</text>
+<text x="0.9652" y="11.176" size="0.8128" layer="21" font="vector" ratio="13" rot="R90" align="center-right">RX1</text>
+<text x="1.016" y="8.636" size="0.8128" layer="21" font="vector" ratio="13" rot="R90" align="center-right">SCL</text>
+<text x="0.9906" y="5.8166" size="0.8128" layer="21" font="vector" ratio="13" rot="R90" align="center-right">23</text>
 <text x="5.94995" y="0.71755" size="0.8128" layer="21" font="vector" ratio="13" align="center-right">24</text>
 <text x="8.3312" y="0.71755" size="0.8128" layer="21" font="vector" ratio="13" align="center-right">26</text>
 <text x="10.8712" y="0.71755" size="0.8128" layer="21" font="vector" ratio="13" align="center-right">28</text>
@@ -235,16 +235,16 @@
 <text x="37.211" y="5.5372" size="0.8128" layer="21" font="vector" ratio="13" rot="SR270" align="center-left">47</text>
 <text x="37.211" y="8.1534" size="0.8128" layer="21" font="vector" ratio="13" rot="SR270" align="center-left">49</text>
 <text x="37.1348" y="10.7442" size="0.8128" layer="21" font="vector" ratio="13" rot="SR270" align="center-left">51</text>
-<text x="37.084" y="13.26515" size="0.8128" layer="21" font="vector" ratio="13" rot="SR270" align="center-left">53</text>
-<text x="37.0078" y="16.1544" size="0.6096" layer="21" font="vector" ratio="13" rot="SR270" align="center-left">AREF</text>
-<text x="36.9824" y="18.3896" size="0.6096" layer="21" font="vector" ratio="13" rot="SR270" align="center-left">A15</text>
-<text x="37.0332" y="20.96135" size="0.6096" layer="21" font="vector" ratio="13" rot="SR270" align="center-left">A12</text>
-<text x="36.957" y="23.495" size="0.6096" layer="21" font="vector" ratio="13" rot="SR270" align="center-left">A10</text>
-<text x="36.957" y="26.05405" size="0.8128" layer="21" font="vector" ratio="13" rot="SR270" align="center-left">A8</text>
-<text x="36.957" y="28.4988" size="0.8128" layer="21" font="vector" ratio="13" rot="SR270" align="center-left">A6</text>
-<text x="36.8046" y="30.4038" size="0.8128" layer="21" font="vector" ratio="13" align="center-left">A4</text>
-<text x="36.8046" y="32.9438" size="0.8128" layer="21" font="vector" ratio="13" align="center-left">A2</text>
-<text x="36.7792" y="35.4838" size="0.8128" layer="21" font="vector" ratio="13" align="center-left">A0</text>
+<text x="37.3888" y="13.16355" size="0.8128" layer="21" font="vector" ratio="13" rot="SR270" align="center-left">53</text>
+<text x="37.2872" y="16.002" size="0.6096" layer="21" font="vector" ratio="13" rot="SR270" align="center-left">AREF</text>
+<text x="37.338" y="18.3642" size="0.8128" layer="21" font="vector" ratio="13" rot="SR270" align="center-left">A15</text>
+<text x="37.3126" y="20.96135" size="0.8128" layer="21" font="vector" ratio="13" rot="SR270" align="center-left">A12</text>
+<text x="37.3126" y="23.7744" size="0.8128" layer="21" font="vector" ratio="13" rot="SR270" align="center-left">A10</text>
+<text x="37.3126" y="25.97785" size="0.8128" layer="21" font="vector" ratio="13" rot="SR270" align="center-left">A8</text>
+<text x="37.3126" y="28.4226" size="0.8128" layer="21" font="vector" ratio="13" rot="SR270" align="center-left">A6</text>
+<text x="37.3126" y="31.0642" size="0.8128" layer="21" font="vector" ratio="13" rot="SR270" align="center-left">A4</text>
+<text x="37.3634" y="33.6296" size="0.8128" layer="21" font="vector" ratio="13" rot="SR270" align="center-left">A2</text>
+<text x="37.338" y="36.1188" size="0.8128" layer="21" font="vector" ratio="13" rot="SR270" align="center-left">A0</text>
 <wire x1="0.0762" y1="35.4838" x2="0.0762" y2="2.4638" width="0.127" layer="20"/>
 <wire x1="0.0762" y1="2.4638" x2="2.6162" y2="-0.0762" width="0.127" layer="20" curve="90"/>
 <wire x1="2.6162" y1="-0.0762" x2="35.6362" y2="-0.0762" width="0.127" layer="20"/>
@@ -253,16 +253,16 @@
 <wire x1="38.1762" y1="35.4838" x2="35.6362" y2="38.0238" width="0.127" layer="20" curve="90"/>
 <wire x1="35.6362" y1="38.0238" x2="2.6162" y2="38.0238" width="0.127" layer="20"/>
 <wire x1="2.6162" y1="38.0238" x2="0.0762" y2="35.4838" width="0.127" layer="20" curve="90"/>
-<text x="28.956" y="33.1978" size="0.6096" layer="21" ratio="15" distance="60" rot="R180">R2</text>
-<text x="31.2928" y="33.1216" size="0.6096" layer="21" ratio="15" distance="60" rot="R180">R1</text>
-<text x="31.2674" y="29.9974" size="0.6096" layer="21" ratio="15" distance="60" rot="R180">C2</text>
-<text x="27.3812" y="29.9466" size="0.6096" layer="21" ratio="15" distance="60" rot="R180">C4</text>
-<text x="28.9814" y="29.9466" size="0.6096" layer="21" ratio="15" distance="60" rot="R180">C8</text>
-<text x="27.3812" y="33.1724" size="0.6096" layer="21" ratio="15" distance="60" rot="R180">C5</text>
-<text x="27.3812" y="36.4236" size="0.6096" layer="21" ratio="15" distance="60" rot="R180">C6</text>
-<text x="15.748" y="29.1084" size="0.6096" layer="21" ratio="15" distance="60" rot="R180">D1</text>
-<text x="31.4198" y="14.4272" size="0.6096" layer="21" ratio="15" distance="60" rot="R180">C3</text>
-<text x="29.9974" y="14.4018" size="0.6096" layer="21" ratio="15" distance="60" rot="R180">C1</text>
+<text x="29.0576" y="33.2994" size="0.8" layer="21" ratio="15" distance="60" rot="R180">R2</text>
+<text x="31.3436" y="33.274" size="0.8" layer="21" ratio="15" distance="60" rot="R180">R1</text>
+<text x="31.3182" y="30.0482" size="0.8" layer="21" ratio="15" distance="60" rot="R180">C2</text>
+<text x="27.4828" y="30.0482" size="0.8" layer="21" ratio="15" distance="60" rot="R180">C4</text>
+<text x="29.083" y="30.0482" size="0.8" layer="21" ratio="15" distance="60" rot="R180">C8</text>
+<text x="27.4574" y="33.2994" size="0.8" layer="21" ratio="15" distance="60" rot="R180">C5</text>
+<text x="27.4574" y="36.5252" size="0.8" layer="21" ratio="15" distance="60" rot="R180">C6</text>
+<text x="15.748" y="29.1084" size="0.8" layer="21" ratio="15" distance="60" rot="R180">D1</text>
+<text x="31.4706" y="14.5288" size="0.8" layer="21" ratio="15" distance="60" rot="R180">C3</text>
+<text x="30.0482" y="14.5288" size="0.8" layer="21" ratio="15" distance="60" rot="R180">C1</text>
 <text x="9.4234" y="17.8816" size="0.6096" layer="21" ratio="15" distance="60" rot="R180">ZQ1</text>
 <text x="24.4602" y="31.1404" size="1.016" layer="21" ratio="20" distance="60" rot="R180">.</text>
 </plain>
@@ -13230,44 +13230,22 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="ATMEGA2" library="Fuzzy" package="TQFP100" value="ATMEGA2560" x="19.1262" y="18.9738" smashed="yes" rot="R270">
-<attribute name="NAME" x="22.2913" y="18.8288" size="0.8" layer="25" ratio="18" rot="R270" align="center"/>
-</element>
-<element name="ZQ1" library="geraicerdas" package="CSTCE*" value="16M" x="8.4764" y="20.0754" smashed="yes" rot="R270">
-<attribute name="VALUE" x="6.6349" y="20.0119" size="0.8128" layer="27" font="vector" rot="R270" align="bottom-center"/>
-</element>
-<element name="R1" library="Fuzzy" package="SMD-0805" value="10k" x="30.6324" y="32.8676" smashed="yes" rot="R90">
-<attribute name="VALUE" x="31.9324" y="32.5276" size="0.8" layer="27" ratio="18" rot="R90" align="center"/>
-</element>
-<element name="C1" library="Fuzzy" package="SMD-0805" value="10 uF" x="29.318" y="14.1208" smashed="yes" rot="R90">
-<attribute name="VALUE" x="30.618" y="13.7808" size="0.8" layer="27" ratio="18" rot="R90" align="center"/>
-</element>
-<element name="R2" library="Fuzzy" package="SMD-0805" value="10k" x="28.321" y="32.893" smashed="yes" rot="R90">
-<attribute name="VALUE" x="29.621" y="32.553" size="0.8" layer="27" ratio="18" rot="R90" align="center"/>
-</element>
+<element name="ATMEGA2" library="Fuzzy" package="TQFP100" value="ATMEGA2560" x="19.1262" y="18.9738" smashed="yes" rot="R270"/>
+<element name="ZQ1" library="geraicerdas" package="CSTCE*" value="16M" x="8.4764" y="20.0754" smashed="yes" rot="R270"/>
+<element name="R1" library="Fuzzy" package="SMD-0805" value="10k" x="30.6324" y="32.8676" smashed="yes" rot="R90"/>
+<element name="C1" library="Fuzzy" package="SMD-0805" value="10 uF" x="29.318" y="14.1208" smashed="yes" rot="R90"/>
+<element name="R2" library="Fuzzy" package="SMD-0805" value="10k" x="28.321" y="32.893" smashed="yes" rot="R90"/>
 <element name="R3" library="Fuzzy" package="SMD-0805" value=" 10k" x="8.7884" y="24.8666" smashed="yes" rot="R90">
-<attribute name="NAME" x="8.86" y="24.8616" size="0.6096" layer="25" ratio="18" rot="R180" align="center"/>
-<attribute name="VALUE" x="10.0884" y="24.5266" size="0.8" layer="27" ratio="18" rot="R90" align="center"/>
+<attribute name="NAME" x="8.86" y="24.8616" size="0.8" layer="25" ratio="18" rot="R180" align="center"/>
 </element>
-<element name="L" library="Fuzzy" package="SMD-0805-LED" value="  L" x="30.607" y="36.068" smashed="yes" rot="R270">
-<attribute name="VALUE" x="29.367" y="36.538" size="0.8" layer="27" ratio="18" rot="R270" align="center"/>
-</element>
+<element name="L" library="Fuzzy" package="SMD-0805-LED" value="  L" x="30.607" y="36.068" smashed="yes" rot="R270"/>
 <element name="PWR" library="Fuzzy" package="SMD-0805-LED" value="L" x="28.321" y="36.1188" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.459" y="36.0726" size="0.8" layer="25" ratio="18" rot="R90.4" align="center"/>
-<attribute name="VALUE" x="27.081" y="36.5888" size="0.8" layer="27" ratio="18" rot="R270" align="center"/>
 </element>
-<element name="C2" library="Fuzzy" package="SMD-0805" value=" .1uF" x="30.6142" y="29.6478" smashed="yes" rot="R90">
-<attribute name="VALUE" x="31.9142" y="29.3078" size="0.8" layer="27" ratio="18" rot="R90" align="center"/>
-</element>
-<element name="C3" library="Fuzzy" package="SMD-0805" value=".1uF" x="30.7848" y="14.1224" smashed="yes" rot="R90">
-<attribute name="VALUE" x="32.0848" y="13.7824" size="0.8" layer="27" ratio="18" rot="R90" align="center"/>
-</element>
-<element name="C4" library="Fuzzy" package="SMD-0805" value=".1uF" x="26.7462" y="29.6418" smashed="yes" rot="R90">
-<attribute name="VALUE" x="28.0462" y="29.3018" size="0.8" layer="27" ratio="18" rot="R90" align="center"/>
-</element>
-<element name="SCHOTTKY2" library="Fuzzy" package="SOD-323" value="DIODE" x="15.1118" y="30.009" smashed="yes" rot="R180">
-<attribute name="VALUE" x="15.1278" y="31.306" size="0.8" layer="27" ratio="18" rot="R180" align="center"/>
-</element>
+<element name="C2" library="Fuzzy" package="SMD-0805" value=" .1uF" x="30.6142" y="29.6478" smashed="yes" rot="R90"/>
+<element name="C3" library="Fuzzy" package="SMD-0805" value=".1uF" x="30.7848" y="14.1224" smashed="yes" rot="R90"/>
+<element name="C4" library="Fuzzy" package="SMD-0805" value=".1uF" x="26.7462" y="29.6418" smashed="yes" rot="R90"/>
+<element name="SCHOTTKY2" library="Fuzzy" package="SOD-323" value="DIODE" x="15.1118" y="30.009" smashed="yes" rot="R180"/>
 <element name="U$4" library="byquip" package="RUBIZHNE-VYSHYVANKA-LOGO" value="" x="6.4516" y="6.096" smashed="yes"/>
 <element name="IC1" library="byquip" package="MLP28" package3d_urn="urn:adsk.eagle:package:26377/1" value="CP2102" x="21.5138" y="32.8422" smashed="yes" rot="R180">
 <attribute name="MF" value="FARNELL" x="21.5138" y="32.8422" size="1.778" layer="27" rot="R180" display="off"/>
@@ -13275,43 +13253,30 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="9282130" x="21.5138" y="32.8422" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="30K5635" x="21.5138" y="32.8422" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="0" x="21.5138" y="32.8422" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="24.0538" y="37.2872" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C5" library="Fuzzy" package="SMD-0805" value="10uF" x="26.7462" y="32.893" smashed="yes" rot="R270">
-<attribute name="VALUE" x="25.4462" y="33.233" size="0.8" layer="27" ratio="18" rot="R270" align="center"/>
-</element>
-<element name="C6" library="Fuzzy" package="SMD-0805" value=".1uF" x="26.7462" y="36.1188" smashed="yes" rot="R90">
-<attribute name="VALUE" x="28.0462" y="35.7788" size="0.8" layer="27" ratio="18" rot="R90" align="center"/>
-</element>
+<element name="C5" library="Fuzzy" package="SMD-0805" value="10uF" x="26.7462" y="32.893" smashed="yes" rot="R270"/>
+<element name="C6" library="Fuzzy" package="SMD-0805" value=".1uF" x="26.7462" y="36.1188" smashed="yes" rot="R90"/>
 <element name="R4" library="Fuzzy" package="SMD-0805" value=" 10k" x="20.0406" y="36.9824" smashed="yes">
 <attribute name="NAME" x="20.1976" y="35.8952" size="0.8" layer="25" ratio="18" align="center"/>
-<attribute name="VALUE" x="19.7006" y="35.6824" size="0.8" layer="27" ratio="18" align="center"/>
 </element>
 <element name="C7" library="Fuzzy" package="SMD-0805" value=".1uF" x="23.1902" y="36.9824" smashed="yes">
 <attribute name="NAME" x="23.3218" y="35.8698" size="0.8" layer="25" ratio="18" align="center"/>
-<attribute name="VALUE" x="22.8502" y="35.6824" size="0.8" layer="27" ratio="18" align="center"/>
 </element>
 <element name="J1" library="USB4105-GF-A" package="GCT_USB4105-GF-A" value="USB4105-GF-A" x="13.4112" y="36.3728" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="In Stock" x="13.4112" y="36.3728" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value=" USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole " x="13.4112" y="36.3728" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="GCT" x="13.4112" y="36.3728" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MP" value="USB4105-GF-A" x="13.4112" y="36.3728" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="14.2456" y="36.7722" size="0.8128" layer="25" ratio="15" rot="R180"/>
 <attribute name="PACKAGE" value="None" x="13.4112" y="36.3728" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="None" x="13.4112" y="36.3728" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/USB4105-GF-A/?ref=eda" x="13.4112" y="36.3728" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="18.4112" y="30.3728" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C8" library="Fuzzy" package="SMD-0805" value="10 uF" x="28.3464" y="29.6418" smashed="yes" rot="R90">
-<attribute name="VALUE" x="29.6464" y="29.3018" size="0.8" layer="27" ratio="18" rot="R90" align="center"/>
-</element>
+<element name="C8" library="Fuzzy" package="SMD-0805" value="10 uF" x="28.3464" y="29.6418" smashed="yes" rot="R90"/>
 <element name="C9" library="Fuzzy" package="SMD-0805" value=" .1uF" x="19.5072" y="8.9662" smashed="yes">
 <attribute name="NAME" x="22.2042" y="8.9712" size="0.8" layer="25" ratio="18" align="center"/>
-<attribute name="VALUE" x="19.1672" y="7.6662" size="0.8" layer="27" ratio="18" align="center"/>
 </element>
 <element name="C10" library="Fuzzy" package="SMD-0805" value="10uF" x="19.5326" y="7.3914" smashed="yes">
 <attribute name="NAME" x="22.3566" y="7.371" size="0.8" layer="25" ratio="18" align="center"/>
-<attribute name="VALUE" x="19.1926" y="6.0914" size="0.8" layer="27" ratio="18" align="center"/>
 </element>
 </elements>
 <signals>
